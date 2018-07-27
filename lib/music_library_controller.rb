@@ -27,12 +27,18 @@ class MusicLibraryController
     result = gets.chomp
       case result
       when result == "list songs"
-         list_songs
+        list_songs
       when result == "list artists"
         list_artists
       when result == "list genres"
         list_genres
-       end
+      when result == "list artist"
+        list_songs_by_artist
+      when result == "list genre"
+        list_songs_by_genre
+      when result == "play song"
+        play_song      
+      end
     end
   end
 
