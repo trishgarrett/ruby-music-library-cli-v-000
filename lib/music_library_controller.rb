@@ -84,6 +84,8 @@ class MusicLibraryController
         end
       end
    end
+
+   self.list_songs
 end
 
 #MusicLibraryController.list_songs
