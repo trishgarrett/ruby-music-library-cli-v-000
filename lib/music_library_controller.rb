@@ -26,17 +26,17 @@ class MusicLibraryController
     result = gets.strip
 
     case result
-      when result == "list songs"
+      when "list songs"
         list_songs
-      when result == "list artists"
+      when "list artists"
         list_artists
-      when result == "list genres"
+      when "list genres"
         list_genres
-      when result == "list artist"
+      when "list artist"
         list_songs_by_artist
-      when result == "list genre"
+      when "list genre"
         list_songs_by_genre
-      when result == "play song"
+      when "play song"
         play_song
       end
     end
