@@ -23,7 +23,7 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     binding.pry
-    result = gets.chomp
+    result = gets.strip
 
     case result
       when result == "list songs"
