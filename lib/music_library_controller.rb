@@ -24,9 +24,7 @@ class MusicLibraryController
     result = ""
     until result == "exit"
     result = gets.chomp
-
     end
-    list_songs
   end
 
   def list_songs
