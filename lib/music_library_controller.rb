@@ -25,9 +25,9 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     result = gets.chomp
-      if list_songs
-        puts list_songs
-      end  
+      # if list_songs
+      #   puts list_songs
+      # end  
     end
   end
 
