@@ -25,8 +25,13 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     result = gets.chomp
-       if result == "list_songs"
+      case result
+      when result == "list songs"
          list_songs
+      when result == "list artists"
+        list_artists
+      when result == "list genres"
+        list_genres
        end
     end
   end
