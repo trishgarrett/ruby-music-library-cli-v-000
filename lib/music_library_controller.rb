@@ -27,6 +27,7 @@ class MusicLibraryController
     result = gets.chomp
       if list_songs
         puts list_songs
+      end  
     end
   end
 
