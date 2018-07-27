@@ -24,6 +24,7 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     result = gets.chomp
+    binding.pry
       case result
       when result == "list songs"
         list_songs
@@ -42,7 +43,7 @@ class MusicLibraryController
   end
 
   def list_songs
-    binding.pry
+    
     song_list = Song.all.sort {|x,y| x.name <=> y.name }
       song_list.each.with_index(1) do |song, index|
         puts "#{index}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
