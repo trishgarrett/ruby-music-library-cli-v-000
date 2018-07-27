@@ -82,7 +82,6 @@ class MusicLibraryController
         if result.to_i == index
           puts "Playing #{song.name} by #{song.artist.name}"
         end
-      end    
+      end
    end
-
 end
