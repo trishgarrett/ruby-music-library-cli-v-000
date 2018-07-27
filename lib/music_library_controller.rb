@@ -24,7 +24,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     binding.pry
     result = gets.chomp
-    
+
     case result
       when result == "list songs"
         list_songs
