@@ -24,6 +24,8 @@ class MusicLibraryController
     result = ""
     until result == "exit"
     result = gets.chomp
+
+    list_songs
     end
   end
 
@@ -86,4 +88,4 @@ class MusicLibraryController
    end
 end
 
-MusicLibraryController.list_songs
+
